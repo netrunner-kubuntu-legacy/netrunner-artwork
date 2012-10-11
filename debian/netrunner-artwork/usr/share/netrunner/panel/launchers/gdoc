@@ -1,0 +1,7 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Exec=rekonq http://docs.google.com/
+Name=Google Docs
+Icon=/usr/share/netrunner/menu/launchers/gdocs.gif

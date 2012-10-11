@@ -1,0 +1,20 @@
+[Added Associations]
+inode/directory=kde4-dolphin.desktop;Nautilus.desktop;kde4-kfmclient_dir.desktop;kde4-gwenview.desktop;nautilus-folder-handler.desktop;
+text/html=firefox.desktop;kde4-kfmclient_html.desktop;thunderbird.desktop;kde4-kate.desktop;
+audio/x-wav=qmmp.desktop;kde4-kwave.desktop;vlc.desktop;
+video/3gpp=vlc.desktop;gnome-mplayer.desktop;kde4-dragonplayer.desktop;
+video/mp4=vlc.desktop;kde4-dragonplayer.desktop;gnome-mplayer.desktop;
+video/mpeg=vlc.desktop;kde4-dragonplayer.desktop;gnome-mplayer.desktop;
+video/ogg=vlc.desktop;kde4-dragonplayer.desktop;qmmp_enqueue.desktop;kde4-amarok_containers.desktop;clementine.desktop;gnome-mplayer.desktop;qmmp.desktop;
+video/quicktime=vlc.desktop;kde4-dragonplayer.desktop;gnome-mplayer.desktop;
+video/vnd.rn-realvideo=vlc.desktop;kde4-dragonplayer.desktop;gnome-mplayer.desktop;
+video/x-matroska=vlc.desktop;kde4-dragonplayer.desktop;gnome-mplayer.desktop;
+video/x-ms-asf=vlc.desktop;kde4-amarok_containers.desktop;kde4-dragonplayer.desktop;clementine.desktop;gnome-mplayer.desktop;
+video/x-ms-wmp=vlc.desktop;gnome-mplayer.desktop;kde4-dragonplayer.desktop;kde4-amarok_containers.desktop;clementine.desktop;
+video/x-ms-wmv=vlc.desktop;kde4-dragonplayer.desktop;gnome-mplayer.desktop;kde4-amarok_containers.desktop;clementine.desktop;
+video/x-msvideo=vlc.desktop;kde4-dragonplayer.desktop;gnome-mplayer.desktop;
+video/x-ogm+ogg=vlc.desktop;kde4-dragonplayer.desktop;gnome-mplayer.desktop;qmmp_enqueue.desktop;kde4-amarok_containers.desktop;clementine.desktop;qmmp.desktop;
+video/x-theora+ogg=vlc.desktop;kde4-dragonplayer.desktop;qmmp_enqueue.desktop;kde4-amarok_containers.desktop;clementine.desktop;gnome-mplayer.desktop;qmmp.desktop;
+application/x-jar=java-1.6.0-sun-java.desktop;
+application/x-java-jnlp-file=java-1.6.0-sun-webstart.desktop;
+

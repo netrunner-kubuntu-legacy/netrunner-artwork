@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Name=Ebay
+Type=Application
+Exec=rekonq http://www.ebay.com
+Icon=/usr/share/netrunner/menu/launchers/ebay.png
+

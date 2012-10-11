@@ -1,0 +1,7 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Exec=rekonq http://maps.google.com
+Name=Google Maps
+Icon=/usr/share/netrunner/menu/launchers/gmaps.png

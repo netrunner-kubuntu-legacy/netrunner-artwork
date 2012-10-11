@@ -1,0 +1,74 @@
+
+[6/15/10 12:25 PM] Log File Opened for Vuze 4.3.0.6
+[12:25:02] DEBUG::Tue Jun 15 12:25:02 UTC 2010  Successfully migrated key management
+[12:25:37] [stderr] DEBUG::Tue Jun 15 12:25:37 UTC 2010::com.aelitis.azureus.core.networkmanager.impl.SinglePeerDownloader::doProcessing::98:
+[12:25:37] DEBUG::Tue Jun 15 12:25:37 UTC 2010::com.aelitis.azureus.core.networkmanager.impl.SinglePeerDownloader::doProcessing::98:
+[12:25:37] [stderr]   java.lang.NullPointerException
+[12:25:37] [stderr] 	at com.aelitis.azureus.plugins.extseed.impl.ExternalSeedReaderImpl.cancelRequest(ExternalSeedReaderImpl.java:1231)
+[12:25:37] [stderr] 	at com.aelitis.azureus.plugins.extseed.ExternalSeedPeer.cancelRequest(ExternalSeedPeer.java:611)
+[12:25:37] [stderr] 	at org.gudy.azureus2.pluginsimpl.local.peers.PeerForeignDelegate.sendCancel(PeerForeignDelegate.java:148)
+[12:25:37] [stderr] 	at org.gudy.azureus2.core3.peer.impl.control.PEPeerControlImpl.writeBlock(PEPeerControlImpl.java:2082)
+[12:25:37] [stderr] 	at org.gudy.azureus2.core3.peer.impl.transport.PEPeerTransportProtocol.decodePiece(PEPeerTransportProtocol.java:2938)
+[12:25:37] [stderr] 	at org.gudy.azureus2.core3.peer.impl.transport.PEPeerTransportProtocol$9.messageReceived(PEPeerTransportProtocol.java:3033)
+[12:25:37] [stderr] 	at com.aelitis.azureus.core.networkmanager.impl.IncomingMessageQueueImpl.receiveFromTransport(IncomingMessageQueueImpl.java:137)
+[12:25:37] [stderr] 	at com.aelitis.azureus.core.networkmanager.impl.SinglePeerDownloader.doProcessing(SinglePeerDownloader.java:77)
+[12:25:37] [stderr] 	at com.aelitis.azureus.core.networkmanager.impl.ReadController.doRead(ReadController.java:294)
+[12:25:37] [stderr] 	at com.aelitis.azureus.core.networkmanager.impl.ReadController.doNormalPriorityRead(ReadController.java:248)
+[12:25:37] [stderr] 	at com.aelitis.azureus.core.networkmanager.impl.ReadController.readProcessorLoop(ReadController.java:229)
+[12:25:37] [stderr] 	at com.aelitis.azureus.core.networkmanager.impl.ReadController.access$200(ReadController.java:43)
+[12:25:37] [stderr] 	at com.aelitis.azureus.core.networkmanager.impl.ReadController$2.runSupport(ReadController.java:89)
+[12:25:37] [stderr] 	at org.gudy.azureus2.core3.util.AEThread.run(AEThread.java:74)
+[12:25:37] [stderr] 
+[12:25:37]   java.lang.NullPointerException
+	at com.aelitis.azureus.plugins.extseed.impl.ExternalSeedReaderImpl.cancelRequest(ExternalSeedReaderImpl.java:1231)
+	at com.aelitis.azureus.plugins.extseed.ExternalSeedPeer.cancelRequest(ExternalSeedPeer.java:611)
+	at org.gudy.azureus2.pluginsimpl.local.peers.PeerForeignDelegate.sendCancel(PeerForeignDelegate.java:148)
+	at org.gudy.azureus2.core3.peer.impl.control.PEPeerControlImpl.writeBlock(PEPeerControlImpl.java:2082)
+	at org.gudy.azureus2.core3.peer.impl.transport.PEPeerTransportProtocol.decodePiece(PEPeerTransportProtocol.java:2938)
+	at org.gudy.azureus2.core3.peer.impl.transport.PEPeerTransportProtocol$9.messageReceived(PEPeerTransportProtocol.java:3033)
+	at com.aelitis.azureus.core.networkmanager.impl.IncomingMessageQueueImpl.receiveFromTransport(IncomingMessageQueueImpl.java:137)
+	at com.aelitis.azureus.core.networkmanager.impl.SinglePeerDownloader.doProcessing(SinglePeerDownloader.java:77)
+	at com.aelitis.azureus.core.networkmanager.impl.ReadController.doRead(ReadController.java:294)
+	at com.aelitis.azureus.core.networkmanager.impl.ReadController.doNormalPriorityRead(ReadController.java:248)
+	at com.aelitis.azureus.core.networkmanager.impl.ReadController.readProcessorLoop(ReadController.java:229)
+	at com.aelitis.azureus.core.networkmanager.impl.ReadController.access$200(ReadController.java:43)
+	at com.aelitis.azureus.core.networkmanager.impl.ReadController$2.runSupport(ReadController.java:89)
+	at org.gudy.azureus2.core3.util.AEThread.run(AEThread.java:74)
+
+[12:25:37] [stderr] DEBUG::Tue Jun 15 12:25:37 UTC 2010::com.aelitis.azureus.core.networkmanager.impl.NetworkConnectionImpl::notifyOfException::205:
+[12:25:37] DEBUG::Tue Jun 15 12:25:37 UTC 2010::com.aelitis.azureus.core.networkmanager.impl.NetworkConnectionImpl::notifyOfException::205:
+[12:25:37] [stderr]   error.getMessage() == null
+[12:25:37]   error.getMessage() == null
+[12:25:37] [stderr]     SinglePeerDownloader::doProcessing::101,ReadController::doRead::294,ReadController::doNormalPriorityRead::248,ReadController::readProcessorLoop::229,ReadController::access$200::43,ReadController$2::runSupport::89,AEThread::run::74
+[12:25:37]     SinglePeerDownloader::doProcessing::101,ReadController::doRead::294,ReadController::doNormalPriorityRead::248,ReadController::readProcessorLoop::229,ReadController::access$200::43,ReadController$2::runSupport::89,AEThread::run::74
+[12:25:37] [stderr] java.lang.NullPointerException
+[12:25:37] [stderr] 	at com.aelitis.azureus.plugins.extseed.impl.ExternalSeedReaderImpl.cancelRequest(ExternalSeedReaderImpl.java:1231)
+[12:25:37] [stderr] 	at com.aelitis.azureus.plugins.extseed.ExternalSeedPeer.cancelRequest(ExternalSeedPeer.java:611)
+[12:25:37] [stderr] 	at org.gudy.azureus2.pluginsimpl.local.peers.PeerForeignDelegate.sendCancel(PeerForeignDelegate.java:148)
+[12:25:37] [stderr] 	at org.gudy.azureus2.core3.peer.impl.control.PEPeerControlImpl.writeBlock(PEPeerControlImpl.java:2082)
+[12:25:37] [stderr] 	at org.gudy.azureus2.core3.peer.impl.transport.PEPeerTransportProtocol.decodePiece(PEPeerTransportProtocol.java:2938)
+[12:25:37] [stderr] 	at org.gudy.azureus2.core3.peer.impl.transport.PEPeerTransportProtocol$9.messageReceived(PEPeerTransportProtocol.java:3033)
+[12:25:37] [stderr] 	at com.aelitis.azureus.core.networkmanager.impl.IncomingMessageQueueImpl.receiveFromTransport(IncomingMessageQueueImpl.java:137)
+[12:25:37] [stderr] 	at com.aelitis.azureus.core.networkmanager.impl.SinglePeerDownloader.doProcessing(SinglePeerDownloader.java:77)
+[12:25:37] [stderr] 	at com.aelitis.azureus.core.networkmanager.impl.ReadController.doRead(ReadController.java:294)
+[12:25:37] [stderr] 	at com.aelitis.azureus.core.networkmanager.impl.ReadController.doNormalPriorityRead(ReadController.java:248)
+[12:25:37] [stderr] 	at com.aelitis.azureus.core.networkmanager.impl.ReadController.readProcessorLoop(ReadController.java:229)
+[12:25:37] [stderr] 	at com.aelitis.azureus.core.networkmanager.impl.ReadController.access$200(ReadController.java:43)
+[12:25:37] [stderr] 	at com.aelitis.azureus.core.networkmanager.impl.ReadController$2.runSupport(ReadController.java:89)
+[12:25:37] [stderr] 	at org.gudy.azureus2.core3.util.AEThread.run(AEThread.java:74)
+[12:25:37] java.lang.NullPointerException
+	at com.aelitis.azureus.plugins.extseed.impl.ExternalSeedReaderImpl.cancelRequest(ExternalSeedReaderImpl.java:1231)
+	at com.aelitis.azureus.plugins.extseed.ExternalSeedPeer.cancelRequest(ExternalSeedPeer.java:611)
+	at org.gudy.azureus2.pluginsimpl.local.peers.PeerForeignDelegate.sendCancel(PeerForeignDelegate.java:148)
+	at org.gudy.azureus2.core3.peer.impl.control.PEPeerControlImpl.writeBlock(PEPeerControlImpl.java:2082)
+	at org.gudy.azureus2.core3.peer.impl.transport.PEPeerTransportProtocol.decodePiece(PEPeerTransportProtocol.java:2938)
+	at org.gudy.azureus2.core3.peer.impl.transport.PEPeerTransportProtocol$9.messageReceived(PEPeerTransportProtocol.java:3033)
+	at com.aelitis.azureus.core.networkmanager.impl.IncomingMessageQueueImpl.receiveFromTransport(IncomingMessageQueueImpl.java:137)
+	at com.aelitis.azureus.core.networkmanager.impl.SinglePeerDownloader.doProcessing(SinglePeerDownloader.java:77)
+	at com.aelitis.azureus.core.networkmanager.impl.ReadController.doRead(ReadController.java:294)
+	at com.aelitis.azureus.core.networkmanager.impl.ReadController.doNormalPriorityRead(ReadController.java:248)
+	at com.aelitis.azureus.core.networkmanager.impl.ReadController.readProcessorLoop(ReadController.java:229)
+	at com.aelitis.azureus.core.networkmanager.impl.ReadController.access$200(ReadController.java:43)
+	at com.aelitis.azureus.core.networkmanager.impl.ReadController$2.runSupport(ReadController.java:89)
+	at org.gudy.azureus2.core3.util.AEThread.run(AEThread.java:74)
+

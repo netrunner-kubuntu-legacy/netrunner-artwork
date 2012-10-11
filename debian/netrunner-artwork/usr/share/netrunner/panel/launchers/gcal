@@ -1,7 +1,0 @@
-[Desktop Entry]
-Encoding=UTF-8
-Version=1.0
-Type=Application
-Exec=rekonq http://www.google.com/calendar
-Name=Google Calendar
-Icon=/usr/share/netrunner/menu/launchers/calendar.png

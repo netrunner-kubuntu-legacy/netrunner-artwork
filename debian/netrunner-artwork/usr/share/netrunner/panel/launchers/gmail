@@ -1,7 +1,0 @@
-[Desktop Entry]
-Encoding=UTF-8
-Version=1.0
-Type=Application
-Exec=rekonq http://www.gmail.com
-Name=Google Mail
-Icon=/usr/share/netrunner/menu/launchers/gmail.png

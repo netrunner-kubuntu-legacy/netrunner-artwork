@@ -1,3 +1,9 @@
+netrunner-artwork (1.0.83) dryland-te; urgency=low
+
+  * Initial Dryland TE release
+
+ -- Frédéric Gaudet <fred@linuxmint.com>  Thu, 18 Oct 2012 15:31:26 +0200
+
 netrunner-artwork (1.0.82) dryland-se; urgency=low
 
   * Assigned Alt+F2 shortcut to Run Command

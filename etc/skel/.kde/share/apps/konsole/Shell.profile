@@ -1,5 +1,6 @@
 [Appearance]
 ColorScheme=Blue
+Font=DejaVu Sans Mono,11,-1,5,50,0,0,0,0,0
 
 [General]
 Icon=utilities-terminal

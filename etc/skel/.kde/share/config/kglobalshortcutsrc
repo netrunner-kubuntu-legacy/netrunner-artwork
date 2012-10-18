@@ -235,3 +235,7 @@ activate widget 107=none,none,Activate Instant Messaging Presence Widget
 activate widget 108=none,none,Activate Battery Monitor Widget
 activate widget 2=none,none,Activate Device Notifier Widget
 activate widget 22=Alt+F1,Alt+F1,Activate Application Launcher Menu Widget
+
+[yakuake]
+_k_friendly_name=Yakuake
+toggle-window-state=F12,F12,Open/Retract Yakuake

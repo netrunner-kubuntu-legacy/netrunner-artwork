@@ -7,6 +7,6 @@ Standards-Version: 3.7.2
 
 Package: netrunner-artwork
 Architecture: all
-Depends: netrunner-artwork-icons, netrunner-artwork-backgrounds, netrunner-artwork-firefox
+Depends: netrunner-artwork-icons, netrunner-artwork-backgrounds, netrunner-artwork-firefox, qtcurve
 Description: Default artwork for Netrunner
  Default artwork for Netrunner

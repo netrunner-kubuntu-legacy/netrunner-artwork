@@ -10,7 +10,7 @@ X-KDE-ParentApp=kcontrol
 
 X-KDE-System-Settings-Parent-Category=network-and-connectivity
 
-Name=Web Accounts
+Name=Add Web Accounts
 
 Comment=Configure your internet accounts such Google, Live, Owncloud
 

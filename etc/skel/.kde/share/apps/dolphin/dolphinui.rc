@@ -19,9 +19,19 @@
    <Action name="file_quit"/>
    <Separator weakSeparator="1"/>
    <Action name="file_quit"/>
+   <Separator weakSeparator="1"/>
+   <Action name="file_quit"/>
   </Menu>
   <Menu name="edit" alreadyVisited="1">
    <text>&amp;Edit</text>
+   <Action name="edit_undo"/>
+   <Separator weakSeparator="1"/>
+   <Action name="edit_cut"/>
+   <Action name="edit_copy"/>
+   <Action name="edit_paste"/>
+   <Separator weakSeparator="1"/>
+   <Action name="edit_find"/>
+   <Separator weakSeparator="1"/>
    <Action name="edit_undo"/>
    <Separator weakSeparator="1"/>
    <Action name="edit_cut"/>
@@ -51,6 +61,9 @@
   </Menu>
   <Menu name="view" alreadyVisited="1">
    <text>&amp;View</text>
+   <Action name="view_zoom_in"/>
+   <Action name="view_zoom_out"/>
+   <Separator weakSeparator="1"/>
    <Action name="view_zoom_in"/>
    <Action name="view_zoom_out"/>
    <Separator weakSeparator="1"/>
@@ -97,8 +110,14 @@
    <Action name="go_forward"/>
    <Action name="go_home"/>
    <Separator weakSeparator="1"/>
+   <Action name="go_up"/>
+   <Action name="go_back"/>
+   <Action name="go_forward"/>
+   <Action name="go_home"/>
+   <Separator weakSeparator="1"/>
    <Action name="closed_tabs"/>
   </Menu>
+  <Separator weakSeparator="1"/>
   <Separator weakSeparator="1"/>
   <Separator weakSeparator="1"/>
   <Menu name="tools" alreadyVisited="1">
@@ -110,6 +129,12 @@
   </Menu>
   <Menu name="settings" alreadyVisited="1">
    <text>&amp;Settings</text>
+   <Action name="options_show_menubar"/>
+   <Separator weakSeparator="1"/>
+   <Action name="options_configure_keybinding"/>
+   <Action name="options_configure_toolbars"/>
+   <Action name="options_configure"/>
+   <Separator weakSeparator="1"/>
    <Action name="options_show_menubar"/>
    <Separator weakSeparator="1"/>
    <Action name="options_configure_keybinding"/>
@@ -142,6 +167,16 @@
    <Action name="help_contents"/>
    <Action name="help_whats_this"/>
    <Separator weakSeparator="1"/>
+   <Action name="help_contents"/>
+   <Action name="help_whats_this"/>
+   <Separator weakSeparator="1"/>
+   <Action name="help_report_bug"/>
+   <Separator weakSeparator="1"/>
+   <Action name="switch_application_language"/>
+   <Separator weakSeparator="1"/>
+   <Action name="help_about_app"/>
+   <Action name="help_about_kde"/>
+   <Separator weakSeparator="1"/>
    <Action name="help_report_bug"/>
    <Separator weakSeparator="1"/>
    <Action name="switch_application_language"/>
@@ -165,26 +200,25 @@
   </Menu>
  </MenuBar>
  <ToolBar noMerge="1" name="mainToolBar" alreadyVisited="1">
-  <text context="@title:menu">Main Toolbar</text>
   <Action name="go_back"/>
+  <text context="@title:menu">Main Toolbar</text>
   <Action name="go_forward"/>
   <Action name="go_up"/>
   <Separator name="separator_0"/>
-  <Action name="edit_find"/>
-  <Separator name="separator_1"/>
-  <Action name="show_preview"/>
-  <Action name="show_hidden_files"/>
-  <Separator name="separator_2"/>
   <Action name="icons"/>
   <Action name="compact"/>
   <Action name="details"/>
   <Action name="show_in_groups"/>
-  <Action name="columns"/>
-  <Separator name="separator_3"/>
+  <Separator name="separator_1"/>
+  <Action name="edit_find"/>
   <Action name="split_view"/>
-  <Separator name="separator_4"/>
-  <Action name="delete"/>
+  <Separator name="separator_2"/>
   <Action name="create_dir"/>
+  <Action name="delete"/>
+  <Action name="show_preview"/>
+  <Action name="show_hidden_files"/>
+  <Action name="columns"/>
+  <Action name="reload"/>
  </ToolBar>
  <State name="new_file">
   <disable>
@@ -223,8 +257,8 @@
   </disable>
  </State>
  <ActionProperties scheme="Default">
-  <Action priority="128" name="go_back"/>
-  <Action priority="128" name="go_forward"/>
+  <Action priority="0" name="go_back"/>
+  <Action priority="0" name="go_forward"/>
   <Action priority="128" name="go_up"/>
   <Action priority="0" name="go_home"/>
   <Action priority="0" name="stop"/>
@@ -239,5 +273,6 @@
   <Action icon="eyes" name="show_hidden_files"/>
   <Action priority="0" name="compact"/>
   <Action priority="0" name="show_in_groups"/>
+  <Action priority="0" name="reload"/>
  </ActionProperties>
 </kpartgui>

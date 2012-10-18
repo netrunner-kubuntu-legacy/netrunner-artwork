@@ -154,10 +154,10 @@ DoubleClickInterval=400
 ShowDeleteCommand=true
 ShowIconsOnPushButtons=false
 ShowIconsInMenuItems=true
-SingleClick=false
+SingleClick=true
 StartDragDist=4
 StartDragTime=500
-WheelScrollLines=5
+WheelScrollLines=3
 contrast=5
 
 [KDE-Global GUI Settings]

@@ -123,10 +123,10 @@ zvalue=32
 
 [Containments][2][Applets][22][Configuration]
 Share=false
-format=NameDashDescription
+format=NameDescription
 icon=/usr/share/netrunner/netrunner-kmenu.png
-maxRecentApps=0
-views=Applications,RunCommand,Leave
+maxRecentApps=5
+views=RecentlyUsedApplications,Applications,RunCommand,Leave
 
 [Containments][2][Applets][22][LayoutInformation]
 Order=0

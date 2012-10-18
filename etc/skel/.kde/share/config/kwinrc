@@ -1,9 +1,9 @@
 [$Version]
-update_info=kwin.upd:kde3.0r1,kwin.upd:kde3.2Xinerama,kwin3_plugin.upd:kde3.2,kwin_focus1.upd:kwin_focus1,kwin_focus2.upd:kwin_focus2,kwin_on_off.upd:kwin_on_off
+update_info=kwin.upd:kde3.0r1,kwin.upd:kde3.2Xinerama,kwin3_plugin.upd:kde3.2,kwin_focus1.upd:kwin_focus1,kwin_focus2.upd:kwin_focus2,kwin_on_off.upd:kwin_on_off,kwin_remove_effects.upd:kwin4.7_effects
 
 [Compositing]
 AnimationSpeed=3
-Backend=OpenGL
+Backend=XRender
 CheckIsSafe=true
 DisableChecks=false
 Enabled=true
@@ -11,7 +11,9 @@ GLDirect=true
 GLLegacy=false
 GLTextureFilter=2
 GLVSync=true
+GraphicsSystem=native
 HiddenPreviews=5
+OpenGLIsUnsafe=false
 UnredirectFullscreen=false
 XRenderSmoothScale=false
 
@@ -22,6 +24,11 @@ Number=1
 
 [Effect-BoxSwitch]
 TabBox=false
+TabBoxAlternative=false
+
+[Effect-CoverSwitch]
+TabBox=true
+TabBoxAlternative=false
 
 [Effect-Cube]
 BorderActivate=9
@@ -35,11 +42,13 @@ BorderActivate=9
 BorderActivate=9
 BorderActivateAll=9
 TabBox=false
+TabBoxAlternative=false
 
 [Effect-PresentWindows]
 BorderActivate=9
 BorderActivateAll=9
 TabBox=false
+TabBoxAlternative=false
 
 [ElectricBorders]
 Bottom=None
@@ -121,17 +130,36 @@ BorderSize=1
 ButtonsOnLeft=M
 ButtonsOnRight=IA_X
 CustomButtonPositions=true
-PluginLib=kwin3_aurorae
+PluginLib=kwin3_qtcurve
 ShowToolTips=false
 
 [TabBox]
-ListMode=0
-ShowTabBox=true
 HighlightWindows=false
+LayoutMode=0
+LayoutName=thumbnails
+ListMode=0
+MinHeight=20
+MinWidth=20
+SelectedItem=0
+SelectedLayoutName=Text
+ShowDesktop=false
 ShowOutline=false
+ShowTabBox=true
 SwitchingMode=1
 
-
+[TabBoxAlternative]
+HighlightWindows=true
+LayoutMode=0
+LayoutName=thumbnails
+ListMode=0
+MinHeight=20
+MinWidth=20
+SelectedItem=0
+SelectedLayoutName=Text
+ShowDesktop=false
+ShowOutline=true
+ShowTabBox=true
+SwitchingMode=0
 
 [Windows]
 ActiveMouseScreen=false
@@ -143,7 +171,7 @@ BorderSnapZone=10
 CenterSnapZone=0
 ClickRaise=true
 DelayFocus=false
-DelayFocusInterval=750
+DelayFocusInterval=0
 ElectricBorderCooldown=350
 ElectricBorderDelay=150
 ElectricBorderMaximize=true

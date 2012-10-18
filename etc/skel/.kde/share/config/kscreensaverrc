@@ -4,4 +4,4 @@ Lock=false
 LockGrace=60000
 PlasmaEnabled=false
 Saver=asciiquarium.desktop
-Timeout=600
+Timeout=900

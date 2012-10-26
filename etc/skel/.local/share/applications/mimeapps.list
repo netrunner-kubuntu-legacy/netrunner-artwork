@@ -1,7 +1,7 @@
 [Added Associations]
 inode/directory=kde4-dolphin.desktop;kde4-kfmclient_dir.desktop;kde4-gwenview.desktop;
 text/html=firefox.desktop;kde4-kfmclient_html.desktop;thunderbird.desktop;kde4-kate.desktop;
-audio/x-wav=qmmp_enqueue.desktop;kde4-kwave.desktop;vlc.desktop;
+text/plain=kde4-kate.desktop;libreoffice-writer.desktop;
 video/3gpp=vlc.desktop;kde4-dragonplayer.desktop;
 video/mp4=vlc.desktop;kde4-dragonplayer.desktop;
 video/mpeg=vlc.desktop;kde4-dragonplayer.desktop;
@@ -24,8 +24,40 @@ video/x-flic=vlc.desktop;kde4-dragonplayer.desktop;xine.desktop;
 application/x-jar=openjdk-7-java.desktop;openjdk-6-java.desktop;kde4-ark.desktop;
 application/x-java-jnlp-file=openjdk-7-java.desktop;openjdk-6-java.desktop;kde4-ark.desktop;
 application/x-java-archive=openjdk-7-java.desktop;openjdk-6-java.desktop;kde4-ark.desktop;
+audio/mp3=qmmp_enqueue.desktop
+audio/mpeg=qmmp_enqueue.desktop
+audio/x-flac=qmmp_enqueue.desktop
+audio/x-mp3=qmmp_enqueue.desktop
+audio/x-mpeg=qmmp_enqueue.desktop
+audio/x-ms-wma=qmmp_enqueue.desktop
+audio/x-musepack=qmmp_enqueue.desktop
+audio/x-vorbis+ogg=qmmp_enqueue.desktop
+audio/x-scpls=qmmp_enqueue.desktop
+audio/x-mpegurl=qmmp_enqueue.desktop
+audio/x-it=qmmp_enqueue.desktop
+audio/x-mod=qmmp_enqueue.desktop
+audio/x-ape=qmmp_enqueue.desktop
+audio/x-ffmpeg-shorten=qmmp_enqueue.desktop
+audio/x-wav=qmmp_enqueue.desktop;kde4-kwave.desktop;
 
 [Added KDE Service Associations]
 application/xhtml+xml=kwebkitpart.desktop;
 application/xml=kwebkitpart.desktop;
 text/html=kwebkitpart.desktop;
+
+[Default Applications]
+audio/mp3=qmmp_enqueue.desktop
+audio/mpeg=qmmp_enqueue.desktop
+audio/x-flac=qmmp_enqueue.desktop
+audio/x-mp3=qmmp_enqueue.desktop
+audio/x-mpeg=qmmp_enqueue.desktop
+audio/x-ms-wma=qmmp_enqueue.desktop
+audio/x-musepack=qmmp_enqueue.desktop
+audio/x-vorbis+ogg=qmmp_enqueue.desktop
+audio/x-scpls=qmmp_enqueue.desktop
+audio/x-mpegurl=qmmp_enqueue.desktop
+audio/x-it=qmmp_enqueue.desktop
+audio/x-mod=qmmp_enqueue.desktop
+audio/x-ape=qmmp_enqueue.desktop
+audio/x-ffmpeg-shorten=qmmp_enqueue.desktop
+audio/x-wav=qmmp_enqueue.desktop;kde4-kwave.desktop;

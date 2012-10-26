@@ -10,7 +10,6 @@ Size=10
 [KWin]
 BorderSize=1
 CustomShadows=true
-Grouping=false
 InnerBorder=0
 OuterBorder=0
 RoundBottom=false
@@ -178,7 +177,7 @@ unifySpinBtns=true
 useHighlightForMenu=true
 useQtFileDialogApps=googleearth-bin
 vArrows=true
-version=1.8.11
+version=1.8.14
 windowBorder=33
 windowDrag=2
 xCheck=false

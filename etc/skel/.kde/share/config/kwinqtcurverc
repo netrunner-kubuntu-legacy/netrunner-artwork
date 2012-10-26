@@ -7,7 +7,6 @@ VOffset=0
 [General]
 BorderSize=1
 CustomShadows=true
-Grouping=false
 InnerBorder=0
 OuterBorder=0
 RoundBottom=false

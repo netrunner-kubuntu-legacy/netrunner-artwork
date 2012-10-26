@@ -93,7 +93,7 @@ ForegroundVisited=69,40,134
 [DesktopIcons]
 ActiveColor=169,156,255
 ActiveColor2=0,0,0
-ActiveEffect=togamma
+ActiveEffect=none
 ActiveSemiTransparent=false
 ActiveValue=0.7
 Animated=true
@@ -114,7 +114,7 @@ ActiveColor=169,156,255
 ActiveColor2=0,0,0
 ActiveEffect=none
 ActiveSemiTransparent=false
-ActiveValue=1
+ActiveValue=0.7
 Animated=false
 DefaultColor=144,128,248
 DefaultColor2=0,0,0
@@ -134,18 +134,18 @@ ColorScheme=Netrunner 4
 XftAntialias=true
 XftHintStyle=hintslight
 XftSubPixel=rgb
-desktopFont=Nimbus Sans L,11,-1,5,50,0,0,0,0,0
-fixed=Monospace,11,-1,5,50,0,0,0,0,0
-font=Nimbus Sans L,11,-1,5,50,0,0,0,0,0
-menuFont=Nimbus Sans L,11,-1,5,50,0,0,0,0,0
+desktopFont=DejaVu Sans,9,-1,5,50,0,0,0,0,0
+fixed=DejaVu Sans Mono,9,-1,5,50,0,0,0,0,0
+font=DejaVu Sans,9,-1,5,50,0,0,0,0,0
+menuFont=DejaVu Sans,9,-1,5,50,0,0,0,0,0
 shadeSortColumn=true
-smallestReadableFont=Nimbus Sans L,10,-1,5,50,0,0,0,0,0
-taskbarFont=Nimbus Sans L,11,-1,5,50,0,0,0,0,0
-toolBarFont=Nimbus Sans L,11,-1,5,50,0,0,0,0,0
+smallestReadableFont=DejaVu Sans,9,-1,5,50,0,0,0,0,0
+taskbarFont=DejaVu Sans,9,-1,5,50,0,0,0,0,0
+toolBarFont=DejaVu Sans,9,-1,5,50,0,0,0,0,0
 widgetStyle=oxygen
 
 [Icons]
-Theme=oxygen-old
+Theme=oxygen
 
 [KDE]
 AutoSelectDelay=-1

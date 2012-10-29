@@ -10,6 +10,7 @@ CustomShadows=true
 InnerBorder=0
 OuterBorder=0
 RoundBottom=false
+TitleBarPad=2
 
 [InactiveShadows]
 Size=10

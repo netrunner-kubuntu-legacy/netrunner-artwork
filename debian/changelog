@@ -1,3 +1,10 @@
+netrunner-artwork (1.0.84) dryland-te; urgency=low
+
+  * Add Roboto fonts
+  * Add New themes
+
+ -- Frédéric Gaudet <fred@linuxmint.com>  Tue, 30 Oct 2012 11:51:14 +0100
+
 netrunner-artwork (1.0.83) dryland-te; urgency=low
 
   * Initial Dryland TE release

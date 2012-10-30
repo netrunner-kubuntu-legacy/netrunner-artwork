@@ -1,9 +1,9 @@
 [General]
-activeFont=DejaVu Sans,9,-1,5,75,0,0,0,0,0
-desktopFont=DejaVu Sans,9,-1,5,50,0,0,0,0,0
-fixed=DejaVu Sans Mono,9,-1,5,50,0,0,0,0,0
-font=DejaVu Sans,9,-1,5,50,0,0,0,0,0
-menuFont=DejaVu Sans,9,-1,5,50,0,0,0,0,0
-smallestReadableFont=DejaVu Sans,9,-1,5,50,0,0,0,0,0
-taskbarFont=DejaVu Sans,9,-1,5,50,0,0,0,0,0
-toolBarFont=DejaVu Sans,9,-1,5,50,0,0,0,0,0
+activeFont=Roboto,11,-1,5,75,0,0,0,0,0
+desktopFont=Roboto,11,-1,5,50,0,0,0,0,0
+fixed=Monospace,11,-1,5,50,0,0,0,0,0
+font=Roboto,11,-1,5,50,0,0,0,0,0
+menuFont=Roboto,11,-1,5,50,0,0,0,0,0
+smallestReadableFont=Roboto,11,-1,5,50,0,0,0,0,0
+taskbarFont=Roboto,11,-1,5,50,0,0,0,0,0
+toolBarFont=Roboto,11,-1,5,50,0,0,0,0,0

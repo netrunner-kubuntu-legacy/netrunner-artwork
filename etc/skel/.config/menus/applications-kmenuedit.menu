@@ -570,6 +570,7 @@
  </Move>
  <Exclude>
   <Filename>Virtualbox.desktop</Filename>
+  <Filename>cuttherope.desktop</Filename>
  </Exclude>
  <Menu>
   <Name>.hidden</Name>
@@ -649,17 +650,13 @@
  </Move>
  <Menu>
   <Name>Web-Games-2</Name>
-  <Layout>
-   <Merge type="files"/>
+  <Exclude>
    <Filename>cuttherope.desktop</Filename>
    <Filename>duckhunt.desktop.desktop</Filename>
-  </Layout>
-  <Exclude/>
-  <Include>
-   <Filename>cuttherope.desktop</Filename>
-   <Filename>duckhunt.desktop.desktop</Filename>
-  </Include>
+  </Exclude>
+  <Include/>
   <Deleted/>
+  <Layout/>
  </Menu>
  <Move>
   <Old>Web-Games</Old>
@@ -671,23 +668,17 @@
  </Move>
  <Menu>
   <Name>Web-Sites-3</Name>
-  <Layout>
-   <Merge type="files"/>
-   <Filename>facebook.desktop</Filename>
-   <Filename>twitter.desktop</Filename>
-   <Filename>jacknjoe.desktop</Filename>
-   <Filename>wearehunted.desktop</Filename>
-   <Filename>youtube.desktop</Filename>
-  </Layout>
   <Exclude>
    <Filename>maps.desktop</Filename>
-  </Exclude>
-  <Include>
    <Filename>facebook.desktop</Filename>
+   <Filename>jacknjoe.desktop</Filename>
    <Filename>twitter.desktop</Filename>
+   <Filename>wearehunted.desktop</Filename>
    <Filename>youtube.desktop</Filename>
-  </Include>
+  </Exclude>
+  <Include/>
   <Deleted/>
+  <Layout/>
  </Menu>
  <Move>
   <Old>Web-Apps-3/Web-Sites</Old>
@@ -827,8 +818,54 @@
   <Old>Applications</Old>
   <New>Applications-2</New>
  </Move>
+ <Menu>
+  <Name>Web-Apps-5</Name>
+  <NotDeleted/>
+  <Layout>
+   <Merge type="files"/>
+   <Filename>cuttherope.desktop</Filename>
+   <Filename>duckhunt.desktop.desktop</Filename>
+   <Filename>dropboxweb.desktop</Filename>
+   <Filename>facebook.desktop</Filename>
+   <Filename>calendar.desktop</Filename>
+   <Filename>google-contacts.desktop</Filename>
+   <Filename>docs.desktop</Filename>
+   <Filename>gmail.desktop</Filename>
+   <Filename>maps.desktop</Filename>
+   <Filename>jacknjoe.desktop</Filename>
+   <Filename>runners-id.desktop</Filename>
+   <Filename>twitter.desktop</Filename>
+   <Filename>wearehunted.desktop</Filename>
+   <Filename>youtube.desktop</Filename>
+  </Layout>
+  <Include>
+   <Filename>cuttherope.desktop</Filename>
+   <Filename>duckhunt.desktop.desktop</Filename>
+   <Filename>dropboxweb.desktop</Filename>
+   <Filename>facebook.desktop</Filename>
+   <Filename>jacknjoe.desktop</Filename>
+   <Filename>twitter.desktop</Filename>
+   <Filename>wearehunted.desktop</Filename>
+   <Filename>youtube.desktop</Filename>
+  </Include>
+  <Exclude/>
+ </Menu>
+ <Move>
+  <Old>Web-Apps-4</Old>
+  <New>Web-Apps-5</New>
+ </Move>
+ <Menu>
+  <Name>Utilities-2</Name>
+  <NotDeleted/>
+ </Menu>
+ <Move>
+  <Old>Utilities</Old>
+  <New>Utilities-2</New>
+ </Move>
  <Layout>
   <Merge type="menus"/>
+  <Menuname>Web-Games-2</Menuname>
+  <Menuname>Web-Sites-3</Menuname>
   <Menuname>.hidden</Menuname>
   <Menuname>Debian</Menuname>
   <Menuname>Games</Menuname>
@@ -854,30 +891,4 @@
   <Filename>kde4-Help.desktop</Filename>
   <Filename>kde4-Home.desktop</Filename>
  </Layout>
- <Menu>
-  <Name>Web-Apps-5</Name>
-  <Layout>
-   <Merge type="files"/>
-   <Filename>dropboxweb.desktop</Filename>
-   <Filename>calendar.desktop</Filename>
-   <Filename>google-contacts.desktop</Filename>
-   <Filename>docs.desktop</Filename>
-   <Filename>gmail.desktop</Filename>
-   <Filename>maps.desktop</Filename>
-   <Filename>runners-id.desktop</Filename>
-  </Layout>
-  <NotDeleted/>
- </Menu>
- <Move>
-  <Old>Web-Apps-4</Old>
-  <New>Web-Apps-5</New>
- </Move>
- <Menu>
-  <Name>Utilities-2</Name>
-  <NotDeleted/>
- </Menu>
- <Move>
-  <Old>Utilities</Old>
-  <New>Utilities-2</New>
- </Move>
 </Menu>

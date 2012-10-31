@@ -1,10 +1,11 @@
 [Desktop Entry]
 Comment=
 Exec=firefox -no-remote -P "prism" http://jacknjoe.com
+Generic Name=Software Store
 Icon=/usr/share/icons/Netrunner/scalable/apps/Icon-jacknjoe.png
 Name=JacknJoe
-Generic Name=Software Store
-NoDisplay=false
+NoDisplay=true
+Path[$e]=
 StartupNotify=true
 Terminal=0
 TerminalOptions=

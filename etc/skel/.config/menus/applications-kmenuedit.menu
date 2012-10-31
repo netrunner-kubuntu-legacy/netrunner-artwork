@@ -649,7 +649,6 @@
  </Move>
  <Menu>
   <Name>Web-Games-2</Name>
-  <NotDeleted/>
   <Layout>
    <Merge type="files"/>
    <Filename>cuttherope.desktop</Filename>
@@ -660,6 +659,7 @@
    <Filename>cuttherope.desktop</Filename>
    <Filename>duckhunt.desktop.desktop</Filename>
   </Include>
+  <Deleted/>
  </Menu>
  <Move>
   <Old>Web-Games</Old>
@@ -671,7 +671,6 @@
  </Move>
  <Menu>
   <Name>Web-Sites-3</Name>
-  <NotDeleted/>
   <Layout>
    <Merge type="files"/>
    <Filename>facebook.desktop</Filename>
@@ -688,6 +687,7 @@
    <Filename>twitter.desktop</Filename>
    <Filename>youtube.desktop</Filename>
   </Include>
+  <Deleted/>
  </Menu>
  <Move>
   <Old>Web-Apps-3/Web-Sites</Old>
@@ -840,20 +840,44 @@
   <Menuname>Office</Menuname>
   <Menuname>wine-wine</Menuname>
   <Menuname>Science-2</Menuname>
+  <Menuname>Web-Apps-5</Menuname>
   <Separator/>
-  <Menuname>Web-Apps-4</Menuname>
-  <Menuname>Web-Games-2</Menuname>
-  <Menuname>Web-Sites-3</Menuname>
-  <Separator/>
-  <Menuname>Utilities</Menuname>
+  <Menuname>Utilities-2</Menuname>
   <Menuname>System-4</Menuname>
   <Menuname>Settingsmenu-4</Menuname>
   <Menuname>Applications-2</Menuname>
   <Separator/>
   <Merge type="files"/>
+  <Filename>kde4-kfind.desktop</Filename>
   <Filename>virtualbox.desktop</Filename>
   <Separator/>
   <Filename>kde4-Help.desktop</Filename>
   <Filename>kde4-Home.desktop</Filename>
  </Layout>
+ <Menu>
+  <Name>Web-Apps-5</Name>
+  <Layout>
+   <Merge type="files"/>
+   <Filename>dropboxweb.desktop</Filename>
+   <Filename>calendar.desktop</Filename>
+   <Filename>google-contacts.desktop</Filename>
+   <Filename>docs.desktop</Filename>
+   <Filename>gmail.desktop</Filename>
+   <Filename>maps.desktop</Filename>
+   <Filename>runners-id.desktop</Filename>
+  </Layout>
+  <NotDeleted/>
+ </Menu>
+ <Move>
+  <Old>Web-Apps-4</Old>
+  <New>Web-Apps-5</New>
+ </Move>
+ <Menu>
+  <Name>Utilities-2</Name>
+  <NotDeleted/>
+ </Menu>
+ <Move>
+  <Old>Utilities</Old>
+  <New>Utilities-2</New>
+ </Move>
 </Menu>

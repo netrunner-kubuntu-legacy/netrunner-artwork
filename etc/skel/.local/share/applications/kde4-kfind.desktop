@@ -1,13 +1,17 @@
 [Desktop Entry]
+Categories=Qt;KDE;Core;
 Comment=
-Exec=firefox -no-remote -P "prism"  http://www.facebook.com
-Icon=/usr/share/icons/Netrunner/scalable/apps/facebook_icon.png
-Name=Facebook
+Exec=kfind %u
+Icon=kfind
+Name=Find Files/Folders
 NoDisplay=true
+OnlyShowIn=KDE;
 Path[$e]=
 StartupNotify=true
 Terminal=0
 TerminalOptions=
 Type=Application
+X-DocPath=kfind/index.html
+X-KDE-StartupNotify=true
 X-KDE-SubstituteUID=false
 X-KDE-Username=

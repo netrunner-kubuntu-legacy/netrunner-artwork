@@ -1,3 +1,6 @@
+[Main]
+ShowToolTips=false
+
 [MainWindow]
 Height 600=601
 MenuBar=Disabled

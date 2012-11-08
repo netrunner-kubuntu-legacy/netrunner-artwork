@@ -37,6 +37,7 @@ GridSpacing=0
 IconSize=48
 ItemHeight=131
 ItemWidth=160
+MaximumTextLine=3
 NumberOfTextlines=3
 PreviewSize=48
 

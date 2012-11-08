@@ -247,7 +247,7 @@ ShowCommunications=true
 ShowHardware=true
 ShowSystemServices=true
 ShowUnknown=true
-alwaysShown=Konversation,notifications
+alwaysShown=Konversation,ktp_presence,notifications
 hidden=KDE Wallet Manager
 
 [Containments][2][Applets][8][Configuration][Applets][1]

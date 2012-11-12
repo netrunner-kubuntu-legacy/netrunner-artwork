@@ -706,18 +706,22 @@
    <Filename>kde4-bluedevil-monolithic.desktop</Filename>
    <Filename>kde4-Kppp.desktop</Filename>
    <Filename>kde4-akregator.desktop</Filename>
+   <Filename>kde4-krdc.desktop</Filename>
   </Exclude>
   <Include>
    <Filename>kde4-kaddressbook.desktop</Filename>
+   <Filename>firefox.desktop</Filename>
    <Filename>kde4-Kontact.desktop</Filename>
+   <Filename>pidgin.desktop</Filename>
+   <Filename>kde4-ktp-contactlist.desktop</Filename>
+   <Filename>kde4-ktp-log-viewer.desktop</Filename>
+   <Filename>transmission-qt.desktop</Filename>
+   <Filename>skype.desktop</Filename>
   </Include>
   <Layout>
    <Merge type="menus"/>
    <Menuname>Terminal</Menuname>
    <Merge type="files"/>
-   <Filename>kde4-ktp-contactlist.desktop</Filename>
-   <Filename>kde4-konversation.desktop</Filename>
-   <Filename>transmission-qt.desktop</Filename>
    <Filename>kde4-bluedevil-audio.desktop</Filename>
    <Filename>kde4-bluedevil-input.desktop</Filename>
    <Filename>kde4-bluedevil-network-panu.desktop</Filename>
@@ -726,15 +730,18 @@
    <Filename>kde4-bluedevil-wizard.desktop</Filename>
    <Filename>kde4-keditbookmarks.desktop</Filename>
    <Filename>kde4-kaddressbook.desktop</Filename>
-   <Filename>kde4-Kontact.desktop</Filename>
    <Filename>filezilla.desktop</Filename>
-   <Filename>icedtea-netx-javaws.desktop</Filename>
+   <Filename>firefox.desktop</Filename>
+   <Filename>kde4-Kontact.desktop</Filename>
    <Filename>pidgin.desktop</Filename>
+   <Filename>transmission-qt.desktop</Filename>
+   <Filename>skype.desktop</Filename>
+   <Filename>kde4-ktp-contactlist.desktop</Filename>
+   <Filename>kde4-ktp-log-viewer.desktop</Filename>
+   <Filename>icedtea-netx-javaws.desktop</Filename>
    <Filename>kde4-KMail2.desktop</Filename>
    <Filename>thunderbird.desktop</Filename>
    <Filename>kde4-knetattach.desktop</Filename>
-   <Filename>skype.desktop</Filename>
-   <Filename>firefox.desktop</Filename>
    <Filename>kde4-konqbrowser.desktop</Filename>
    <Separator/>
    <Menuname>More</Menuname>
@@ -857,6 +864,42 @@
  <Menu>
   <Name>Utilities-2</Name>
   <NotDeleted/>
+  <Layout>
+   <Merge type="files"/>
+   <Filename>kde4-kwrite.desktop</Filename>
+   <Filename>mintstick.desktop</Filename>
+   <Filename>kde4-nepomukbackup.desktop</Filename>
+   <Filename>gksu.desktop</Filename>
+   <Filename>kde4-sambamounter.desktop</Filename>
+   <Filename>sambamounter.desktop</Filename>
+   <Filename>kde4-korganizer-import.desktop</Filename>
+   <Filename>dolphin.desktop</Filename>
+   <Filename>kde4-Kppp.desktop</Filename>
+   <Merge type="menus"/>
+   <Menuname>XUtilities</Menuname>
+   <Filename>kde4-akregator.desktop</Filename>
+   <Filename>kde4-kate.desktop</Filename>
+   <Filename>AcetoneISO.desktop</Filename>
+   <Filename>kde4-akonaditray.desktop</Filename>
+   <Filename>kde4-ark.desktop</Filename>
+   <Filename>kde4-kmousetool.desktop</Filename>
+   <Filename>kde4-klipper.desktop</Filename>
+   <Filename>kde4-kfontview.desktop</Filename>
+   <Filename>kde4-ktimetracker.desktop</Filename>
+   <Filename>kde4-knotes.desktop</Filename>
+   <Filename>kde4-kcalc.desktop</Filename>
+   <Filename>kde4-kmag.desktop</Filename>
+   <Filename>kde4-ktesnippets_editor.desktop</Filename>
+   <Filename>kde4-synaptiks.desktop</Filename>
+   <Filename>kde4-kvkbd.desktop</Filename>
+   <Filename>kde4-bluedevil-monolithic.desktop</Filename>
+   <Separator/>
+   <Menuname>More</Menuname>
+   <Filename>kde4-krdc.desktop</Filename>
+  </Layout>
+  <Include>
+   <Filename>kde4-krdc.desktop</Filename>
+  </Include>
  </Menu>
  <Move>
   <Old>Utilities</Old>

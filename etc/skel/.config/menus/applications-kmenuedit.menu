@@ -864,6 +864,9 @@
  <Menu>
   <Name>Utilities-2</Name>
   <NotDeleted/>
+  <Include>
+   <Filename>kde4-krdc.desktop</Filename>
+  </Include>
   <Layout>
    <Merge type="files"/>
    <Filename>kde4-kwrite.desktop</Filename>
@@ -893,13 +896,11 @@
    <Filename>kde4-synaptiks.desktop</Filename>
    <Filename>kde4-kvkbd.desktop</Filename>
    <Filename>kde4-bluedevil-monolithic.desktop</Filename>
+   <Filename>kde4-krdc.desktop</Filename>
    <Separator/>
    <Menuname>More</Menuname>
-   <Filename>kde4-krdc.desktop</Filename>
   </Layout>
-  <Include>
-   <Filename>kde4-krdc.desktop</Filename>
-  </Include>
+  <Exclude/>
  </Menu>
  <Move>
   <Old>Utilities</Old>

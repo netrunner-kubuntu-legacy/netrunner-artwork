@@ -15,9 +15,6 @@ ShowPopup=false
 [Favorite Profiles]
 Favorites=
 
-[Shortcuts]
-close-session=Esc
-
 [Window]
 Height=60
 KeepOpen=false

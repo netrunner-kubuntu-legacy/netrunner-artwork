@@ -577,6 +577,7 @@
   <Include>
    <Filename>Virtualbox.desktop</Filename>
    <Filename>kde4-karbon.desktop</Filename>
+   <Filename>virtualbox.desktop</Filename>
   </Include>
  </Menu>
  <Menu>
@@ -639,6 +640,51 @@
  <Menu>
   <Name>System-4</Name>
   <NotDeleted/>
+  <Layout>
+   <Merge type="menus"/>
+   <Menuname>ScreenSavers</Menuname>
+   <Menuname>Terminal</Menuname>
+   <Merge type="files"/>
+   <Filename>jockey-kde.desktop</Filename>
+   <Filename>apturl.desktop</Filename>
+   <Filename>kde4-dolphin.desktop</Filename>
+   <Filename>gdebi.desktop</Filename>
+   <Filename>kde4-ubiquity-kdeui.desktop</Filename>
+   <Filename>kde4-k3b.desktop</Filename>
+   <Filename>kde4-partitionmanager.desktop</Filename>
+   <Filename>kde4-kinfocenter.desktop</Filename>
+   <Filename>kde4-kfmclient_war.desktop</Filename>
+   <Filename>kde4-kfmclient_html.desktop</Filename>
+   <Filename>kde4-kfmclient.desktop</Filename>
+   <Filename>kde4-kfmclient_dir.desktop</Filename>
+   <Filename>kde4-konsole.desktop</Filename>
+   <Filename>kde4-krandrtray.desktop</Filename>
+   <Filename>kde4-ksystemlog.desktop</Filename>
+   <Filename>kde4-kwalletmanager.desktop</Filename>
+   <Filename>mintstick-kde.desktop</Filename>
+   <Filename>kde4-muon-discover.desktop</Filename>
+   <Filename>kde4-muon.desktop</Filename>
+   <Filename>kde4-muon-installer.desktop</Filename>
+   <Filename>kde4-muon-updater.desktop</Filename>
+   <Filename>kde4-nepomukbackup.desktop</Filename>
+   <Filename>kde4-nepomukcontroller.desktop</Filename>
+   <Filename>kde4-sambamounterapp.desktop</Filename>
+   <Filename>kde4-qapt-deb-installer.desktop</Filename>
+   <Filename>hplj1020.desktop</Filename>
+   <Filename>software-properties-kde.desktop</Filename>
+   <Filename>usb-creator-kde.desktop</Filename>
+   <Filename>synaptic-kde.desktop</Filename>
+   <Filename>synaptic.desktop</Filename>
+   <Filename>synaptic-kde-2.desktop</Filename>
+   <Filename>kde4-kfmclient_sysinfo.desktop</Filename>
+   <Filename>kde4-ksysguard.desktop</Filename>
+   <Filename>kde4-yakuake.desktop</Filename>
+   <Separator/>
+   <Menuname>More</Menuname>
+  </Layout>
+  <Exclude>
+   <Filename>virtualbox.desktop</Filename>
+  </Exclude>
  </Menu>
  <Move>
   <Old>Utilities/System</Old>

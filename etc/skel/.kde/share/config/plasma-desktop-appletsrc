@@ -34,6 +34,7 @@ customIconSize=64
 desktop=-1
 flow=0
 formfactor=0
+iconsLocked=true
 immutability=1
 location=0
 numTextLines=2

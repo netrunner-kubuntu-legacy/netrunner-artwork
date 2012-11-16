@@ -50,7 +50,6 @@ install: build
 	#$(MAKE) install DESTDIR=$(CURDIR)/debian/netrunner-artwork
 	mkdir -p $(CURDIR)/debian/netrunner-artwork
 	cp -r $(CURDIR)/usr $(CURDIR)/debian/netrunner-artwork/
-	cp -r $(CURDIR)/etc $(CURDIR)/debian/netrunner-artwork/
 
 # Build architecture-independent files here.
 binary-indep: build install

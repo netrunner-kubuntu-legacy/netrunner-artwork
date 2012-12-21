@@ -1,3 +1,9 @@
+netrunner-artwork (1.0.86) dryland-te; urgency=low
+
+  * Remove Roboto fonts
+
+ -- Frédéric Gaudet <fred@linuxmint.com>  Fri, 21 Dec 2012 13:03:02 +0100
+
 netrunner-artwork (1.0.85) dryland-te; urgency=low
 
   * Move prefs

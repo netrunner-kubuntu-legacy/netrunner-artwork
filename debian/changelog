@@ -1,3 +1,9 @@
+netrunner-artwork (1.0.87) enigma-1306; urgency=low
+
+  * Initial Enigma Release
+
+ -- Frédéric Gaudet <fred@linuxmint.com>  Thu, 16 May 2013 20:25:44 +0200
+
 netrunner-artwork (1.0.86) dryland-te; urgency=low
 
   * Remove Roboto fonts

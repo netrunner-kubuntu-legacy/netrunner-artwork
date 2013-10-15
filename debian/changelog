@@ -1,3 +1,10 @@
+netrunner-artwork (1.0.88) saucy; urgency=low
+
+  * Bump version number for next Netrunner release
+  * Change distro name to saucy
+
+ -- Leszek Lesner <leszek@zevenos.com>  Tue, 15 Oct 2013 11:59:03 +0200
+
 netrunner-artwork (1.0.87) enigma-1306; urgency=low
 
   * Initial Enigma Release

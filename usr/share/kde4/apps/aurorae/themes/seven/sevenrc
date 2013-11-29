@@ -12,7 +12,7 @@ HaloActive=true
 HaloInactive=true 
 LeftButtons=MS                 
 RightButtons=IAX
-Animation=200
+Animation=0
 Shadow=True
 
 [Layout]

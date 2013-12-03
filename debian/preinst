@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Overwrite default homerun-kicker logo
+function overwrite_default_kicker_logo {
+    dpkg-divert --package netrunner-artwork --add --rename --divert /usr/share/icons/hicolor/48x48/apps/homerun.png.orig /usr/share/icons/hicolor/48x48/apps/homerun.png
+    dpkg-divert --package netrunner-artwork --add --rename --divert /usr/share/icons/hicolor/32x32/apps/homerun.png.orig /usr/share/icons/hicolor/48x48/apps/homerun.png
+    dpkg-divert --package netrunner-artwork --add --rename --divert /usr/share/icons/hicolor/16x16/apps/homerun.png.orig /usr/share/icons/hicolor/48x48/apps/homerun.png
+    dpkg-divert --package netrunner-artwork --add --rename --divert /usr/share/icons/hicolor/22x22/apps/homerun.png.orig /usr/share/icons/hicolor/48x48/apps/homerun.png
+    dpkg-divert --package netrunner-artwork --add --rename --divert /usr/share/icons/hicolor/64x64/apps/homerun.png.orig /usr/share/icons/hicolor/48x48/apps/homerun.png
+    dpkg-divert --package netrunner-artwork --add --rename --divert /usr/share/icons/hicolor/128x128/apps/homerun.png.orig /usr/share/icons/hicolor/48x48/apps/homerun.png
+    dpkg-divert --package netrunner-artwork --add --rename --divert /usr/share/icons/hicolor/scalable/apps/homerun.svgz.orig /usr/share/icons/hicolor/48x48/apps/homerun.svgz
+}
+
+overwrite_default_kicker_logo
+ 

@@ -12,3 +12,8 @@ X-KDE-PluginInfo-Category=Plasma Theme
 X-KDE-PluginInfo-License=GPL
 X-KDE-PluginInfo-EnabledByDefault=true
 
+[Wallpaper]
+defaultWallpaperTheme=Enigma II
+defaultFileSuffix=.png
+defaultWidth=1920
+defaultHeight=1080

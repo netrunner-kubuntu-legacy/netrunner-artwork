@@ -18,9 +18,9 @@ You should have received a copy of the GNU General Public License
 along with LightDM-KDE.  If not, see <http://www.gnu.org/licenses/>.
 */
 import QtQuick 1.0
+import QtWebKit 1.0
 import org.kde.plasma.components 0.1 as PlasmaComponents
 import org.kde.plasma.core 0.1 as PlasmaCore
-import org.kubuntu.components 1.0 as Kubuntu
 import "."
 
 Item {
@@ -161,24 +161,6 @@ Item {
                 }
             }
 
-            PlasmaCore.FrameSvgItem {
-                id: frameFocus
-                anchors {
-                    fill: frame
-                    leftMargin: -margins.left
-                    topMargin: -margins.top
-                    bottomMargin: -margins.bottom
-                    rightMargin: -margins.right
-                }
-                imagePath: "widgets/button"
-                prefix: "hover"
-                visible: wrapper.isCurrent
-                opacity: wrapper.activeFocus ? 1 : 0
-                Behavior on opacity {
-                    NumberAnimation { duration: 100 }
-                }
-            }
-
             Face {
                 id: face
                 active: (usersList.currentItem == parent)
@@ -241,6 +223,7 @@ Item {
         height: userItemHeight
         currentIndex: indexForUserName(greeter.lastLoggedInUser)
         model: usersModel
+        focus: true        
 
         cacheBuffer: count * 80
 

@@ -10,6 +10,6 @@ function overwrite_default_kicker_logo {
     dpkg-divert --package netrunner-artwork --add --rename --divert /usr/share/icons/hicolor/128x128/apps/homerun.png.orig /usr/share/icons/hicolor/128x128/apps/homerun.png
     dpkg-divert --package netrunner-artwork --add --rename --divert /usr/share/icons/hicolor/scalable/apps/homerun.svgz.orig /usr/share/icons/hicolor/scalable/apps/homerun.svgz
 }
-
-overwrite_default_kicker_logo
- 
+if [ install = "$1" -o upgrade = "$1" ]; then
+  overwrite_default_kicker_logo
+fi 

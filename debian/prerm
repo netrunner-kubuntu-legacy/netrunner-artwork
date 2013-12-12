@@ -10,6 +10,6 @@ function undo_overwrite_default_kicker_logo {
     dpkg-divert --package netrunner-artwork --remove --rename --divert /usr/share/icons/hicolor/128x128/apps/homerun.png.orig /usr/share/icons/hicolor/128x128/apps/homerun.png
     dpkg-divert --package netrunner-artwork --remove --rename --divert /usr/share/icons/hicolor/scalable/apps/homerun.svgz.orig /usr/share/icons/hicolor/scalable/apps/homerun.svgz
 }
-
-undo_overwrite_default_kicker_logo
- 
+if [ remove = "$1" -o abort-install = "$1" -o disappear = "$1" -o purge = "$1" ]; then
+  undo_overwrite_default_kicker_logo
+fi 

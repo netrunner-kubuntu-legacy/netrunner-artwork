@@ -103,8 +103,10 @@ Item {
         id: logoImage
         source: "img/version.png"
         anchors.horizontalCenter: activeScreen.horizontalCenter
-        anchors.top: activeScreen.top
-        anchors.topMargin: 80
+	anchors.bottom: activeScreen.bottom
+        anchors.bottomMargin: 25
+//        anchors.left: activeScreen.left
+//        anchors.leftMargin: 22
     }
 
     PlasmaComponents.Label {
@@ -117,7 +119,7 @@ Item {
         font.bold: true
         color: "#b8b8b8"
         //text: i18n("Welcome to %1", greeter.hostname);
-        text: i18n("Welcome to Kubuntu");
+        text: i18n("Welcome to Netrunner Frontier");
     }
 
     FeedbackLabel {

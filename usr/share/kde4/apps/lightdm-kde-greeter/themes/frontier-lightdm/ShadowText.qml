@@ -19,7 +19,7 @@ import QtQuick 1.0
 import org.kubuntu.components 1.0
 
 Text {
-    font.pixelSize: 16
+    font.pixelSize: 14
     color: "white"
 
     Text {
@@ -27,8 +27,8 @@ Text {
         font.pixelSize: parent.font.pixelSize
         text: parent.text
         color: "black"
-        width: parent.width + 4
-        height: parent.height + 4
+        width: parent.width + 1
+        height: parent.height + 1
         z: parent.z - 1
 
         effect: Blur { blurRadius: 5.0 }

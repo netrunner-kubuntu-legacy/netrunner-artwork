@@ -23,7 +23,7 @@ import org.kde.plasma.core 0.1 as PlasmaCore
 
 PlasmaCore.FrameSvgItem {
     id: frame
-    imagePath: "translucent/dialogs/background"
+    //imagePath: "translucent/dialogs/background"
     opacity: 0
     property alias text: textItem.text
     property alias font: textItem.font

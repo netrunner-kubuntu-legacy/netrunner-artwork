@@ -23,7 +23,7 @@ Item {
 
     Row {
         id: row
-        spacing: 16
+        spacing: 20
 
         ShadowText {
             text: Qt.formatDate(new Date, Qt.DefaultLocaleLongDate)

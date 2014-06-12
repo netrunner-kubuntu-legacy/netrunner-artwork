@@ -2,6 +2,8 @@
 
 # Overwrite default homerun-kicker logo
 function overwrite_default_kicker_logo {
+    mkdir -p /usr/share/netrunner/hidden/icons/hicolor/{64x64,128x128,scalable}/apps
+
     dpkg-divert --package netrunner-artwork --add --rename --divert /usr/share/icons/hicolor/48x48/apps/homerun.png.orig /usr/share/icons/hicolor/48x48/apps/homerun.png
     dpkg-divert --package netrunner-artwork --add --rename --divert /usr/share/icons/hicolor/32x32/apps/homerun.png.orig /usr/share/icons/hicolor/32x32/apps/homerun.png
     dpkg-divert --package netrunner-artwork --add --rename --divert /usr/share/icons/hicolor/16x16/apps/homerun.png.orig /usr/share/icons/hicolor/16x16/apps/homerun.png
@@ -10,6 +12,7 @@ function overwrite_default_kicker_logo {
     dpkg-divert --package netrunner-artwork --add --rename --divert /usr/share/icons/hicolor/128x128/apps/homerun.png.orig /usr/share/icons/hicolor/128x128/apps/homerun.png
     dpkg-divert --package netrunner-artwork --add --rename --divert /usr/share/icons/hicolor/scalable/apps/homerun.svgz.orig /usr/share/icons/hicolor/scalable/apps/homerun.svgz
 }
+
 if [ install = "$1" -o upgrade = "$1" ]; then
   overwrite_default_kicker_logo
 fi 

@@ -1,0 +1,18 @@
+[Desktop Entry]
+Name=Eclipse
+Comment=
+X-KDE-PluginInfo-Author=DarkBeastOfPrey
+X-KDE-PluginInfo-Email=
+X-KDE-PluginInfo-Name=Eclipse
+X-KDE-PluginInfo-Version=1.2
+X-KDE-PluginInfo-Website=
+X-KDE-PluginInfo-Category=Plasma Theme
+X-KDE-PluginInfo-Depends=KDE4
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-EnabledByDefault=true
+
+[Wallpaper]
+defaultWallpaperTheme=Netrunner Terminal Line
+defaultFileSuffix=.png
+defaultWidth=1920
+defaultHeight=1080

@@ -1,0 +1,37 @@
+[General]
+ActiveTextColor=255,255,255,255
+Animation=200
+InactiveTextColor=255,255,255,150
+TitleAlignment=Center
+TitleVerticalAlignment=Center
+XftAntialias=true
+desktopFont=Sans Serif,10,-1,5,50,0,0,0,0,0
+fixed=Monospace,10,-1,5,50,0,0,0,0,0
+font=Sans Serif,10,-1,5,50,0,0,0,0,0
+menuFont=Sans Serif,10,-1,5,50,0,0,0,0,0
+smallestReadableFont=Sans Serif,8,-1,5,50,0,0,0,0,0
+toolBarFont=Sans Serif,10,-1,5,50,0,0,0,0,0
+widgetStyle=oxygen
+
+[Layout]
+BorderBottom=6
+BorderLeft=6
+BorderRight=6
+ButtonHeight=20
+ButtonMarginTop=0
+ButtonSpacing=1
+ButtonWidth=35
+ExplicitButtonSpacer=2
+PaddingBottom=0
+PaddingLeft=0
+PaddingRight=0
+PaddingTop=10
+TitleBorderLeft=8
+TitleBorderRight=8
+TitleEdgeBottom=0
+TitleEdgeTop=0
+TitleEdgeBottomMaximized=0
+TitleEdgeLeft=0
+TitleEdgeRight=6
+TitleEdgeTopMaximized=0
+TitleHeight=28

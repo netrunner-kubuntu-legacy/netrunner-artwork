@@ -1,5 +1,5 @@
 
-loadTemplate("org.kde.plasma.desktop.netrunnerPanel")
+loadTemplate("org.kde.plasma.desktop.defaultPanel")
 
 // for (var i = 0; i < screenCount; ++i) {
 //     var id = createActivity("Desktop");
@@ -54,7 +54,7 @@ for (var i = 0; i < screenCount; ++i) {
         desktopsArray[j].wallpaperMode = 'SingleImage'
 
         desktopsArray[j].currentConfigGroup = new Array("General");
-        desktopsArray[j].writeConfig("positions","1,13,desktop:/mycomputer.desktop,0,0,desktop:/Network,0,1,desktop:/Readme.desktop,0,2,desktop:/calamares.desktop,0,3")
+        desktopsArray[j].writeConfig("positions","1,8,desktop:/welcome.desktop,0,2,desktop:/Network,0,1,desktop:/mycomputer.desktop,0,0,desktop:/ubiquity-kdeui.desktop,0,3")
         desktopsArray[j].writeConfig("pressToMove",true);
         desktopsArray[j].writeConfig("showToolbox",false);
         desktopsArray[j].writeConfig("popups",false);
@@ -62,7 +62,7 @@ for (var i = 0; i < screenCount; ++i) {
         desktopsArray[j].writeConfig("sortMode","-1");
 //         [Containments][18][Wallpaper][org.kde.image][General]
         desktopsArray[j].currentConfigGroup = new Array("Wallpaper", "org.kde.image", "General");
-        desktopsArray[j].writeConfig("Image", "file:///usr/share/wallpapers/netrunner/Netrunner Rolling.png");
+        desktopsArray[j].writeConfig("Image", "file:///usr/share/wallpapers/Next/contents/images/1600x1200.png");
         desktopsArray[j].writeConfig("FillMode","2");
     }
 }

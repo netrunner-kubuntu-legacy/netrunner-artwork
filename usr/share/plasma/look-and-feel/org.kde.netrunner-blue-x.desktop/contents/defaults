@@ -2,10 +2,10 @@
 widgetStyle=breeze
 
 [kdeglobals][General]
-ColorScheme=Carbon
+ColorScheme=Netrunner15
 
 [kdeglobals][Icons]
-Theme=breeze
+Theme=netrunner-breeze
 
 [plasmarc][Theme]
 name=blue-x
